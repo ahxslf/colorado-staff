@@ -1,0 +1,2525 @@
+[
+ {
+  "code": "XAB",
+  "name": "Abkhazia",
+  "aliases": [],
+  "flag": "🏳️",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Abkhazia.svg?width=40",
+  "tz": "Europe/Moscow"
+ },
+ {
+  "code": "AF",
+  "name": "Afghanistan",
+  "aliases": [
+   "Afghanistan"
+  ],
+  "flag": "🇦🇫",
+  "img": "https://flagcdn.com/w40/af.png",
+  "tz": "Asia/Kabul"
+ },
+ {
+  "code": "AL",
+  "name": "Albania",
+  "aliases": [
+   "Albania"
+  ],
+  "flag": "🇦🇱",
+  "img": "https://flagcdn.com/w40/al.png",
+  "tz": "Europe/Tirane"
+ },
+ {
+  "code": "DZ",
+  "name": "Algeria",
+  "aliases": [
+   "Algeria"
+  ],
+  "flag": "🇩🇿",
+  "img": "https://flagcdn.com/w40/dz.png",
+  "tz": "Africa/Algiers"
+ },
+ {
+  "code": "AS",
+  "name": "American Samoa",
+  "aliases": [
+   "American Samoa"
+  ],
+  "flag": "🇦🇸",
+  "img": "https://flagcdn.com/w40/as.png",
+  "tz": "Pacific/Pago_Pago"
+ },
+ {
+  "code": "AD",
+  "name": "Andorra",
+  "aliases": [
+   "Andorra"
+  ],
+  "flag": "🇦🇩",
+  "img": "https://flagcdn.com/w40/ad.png",
+  "tz": "Europe/Andorra"
+ },
+ {
+  "code": "AO",
+  "name": "Angola",
+  "aliases": [
+   "Angola"
+  ],
+  "flag": "🇦🇴",
+  "img": "https://flagcdn.com/w40/ao.png",
+  "tz": "Africa/Luanda"
+ },
+ {
+  "code": "AI",
+  "name": "Anguilla",
+  "aliases": [
+   "Anguilla"
+  ],
+  "flag": "🇦🇮",
+  "img": "https://flagcdn.com/w40/ai.png",
+  "tz": "America/Anguilla"
+ },
+ {
+  "code": "AQ",
+  "name": "Antarctica",
+  "aliases": [
+   "Antarctica"
+  ],
+  "flag": "🇦🇶",
+  "img": "https://flagcdn.com/w40/aq.png",
+  "tz": "Antarctica/Troll"
+ },
+ {
+  "code": "AG",
+  "name": "Antigua and Barbuda",
+  "aliases": [
+   "Antigua and Barbuda"
+  ],
+  "flag": "🇦🇬",
+  "img": "https://flagcdn.com/w40/ag.png",
+  "tz": "America/Antigua"
+ },
+ {
+  "code": "AR",
+  "name": "Argentina",
+  "aliases": [
+   "Argentina"
+  ],
+  "flag": "🇦🇷",
+  "img": "https://flagcdn.com/w40/ar.png",
+  "tz": "America/Argentina/Buenos_Aires"
+ },
+ {
+  "code": "AM",
+  "name": "Armenia",
+  "aliases": [
+   "Armenia"
+  ],
+  "flag": "🇦🇲",
+  "img": "https://flagcdn.com/w40/am.png",
+  "tz": "Asia/Yerevan"
+ },
+ {
+  "code": "AW",
+  "name": "Aruba",
+  "aliases": [
+   "Aruba"
+  ],
+  "flag": "🇦🇼",
+  "img": "https://flagcdn.com/w40/aw.png",
+  "tz": "America/Aruba"
+ },
+ {
+  "code": "AU",
+  "name": "Australia",
+  "aliases": [
+   "Australia"
+  ],
+  "flag": "🇦🇺",
+  "img": "https://flagcdn.com/w40/au.png",
+  "tz": "Australia/Sydney"
+ },
+ {
+  "code": "AT",
+  "name": "Austria",
+  "aliases": [
+   "Austria"
+  ],
+  "flag": "🇦🇹",
+  "img": "https://flagcdn.com/w40/at.png",
+  "tz": "Europe/Vienna"
+ },
+ {
+  "code": "AZ",
+  "name": "Azerbaijan",
+  "aliases": [
+   "Azerbaijan"
+  ],
+  "flag": "🇦🇿",
+  "img": "https://flagcdn.com/w40/az.png",
+  "tz": "Asia/Baku"
+ },
+ {
+  "code": "BS",
+  "name": "Bahamas",
+  "aliases": [
+   "Bahamas"
+  ],
+  "flag": "🇧🇸",
+  "img": "https://flagcdn.com/w40/bs.png",
+  "tz": "America/Nassau"
+ },
+ {
+  "code": "BH",
+  "name": "Bahrain",
+  "aliases": [
+   "Bahrain"
+  ],
+  "flag": "🇧🇭",
+  "img": "https://flagcdn.com/w40/bh.png",
+  "tz": "Asia/Bahrain"
+ },
+ {
+  "code": "BD",
+  "name": "Bangladesh",
+  "aliases": [
+   "Bangladesh"
+  ],
+  "flag": "🇧🇩",
+  "img": "https://flagcdn.com/w40/bd.png",
+  "tz": "Asia/Dhaka"
+ },
+ {
+  "code": "BB",
+  "name": "Barbados",
+  "aliases": [
+   "Barbados"
+  ],
+  "flag": "🇧🇧",
+  "img": "https://flagcdn.com/w40/bb.png",
+  "tz": "America/Barbados"
+ },
+ {
+  "code": "BY",
+  "name": "Belarus",
+  "aliases": [
+   "Belarus"
+  ],
+  "flag": "🇧🇾",
+  "img": "https://flagcdn.com/w40/by.png",
+  "tz": "Europe/Minsk"
+ },
+ {
+  "code": "BE",
+  "name": "Belgium",
+  "aliases": [
+   "Belgium"
+  ],
+  "flag": "🇧🇪",
+  "img": "https://flagcdn.com/w40/be.png",
+  "tz": "Europe/Brussels"
+ },
+ {
+  "code": "BZ",
+  "name": "Belize",
+  "aliases": [
+   "Belize"
+  ],
+  "flag": "🇧🇿",
+  "img": "https://flagcdn.com/w40/bz.png",
+  "tz": "America/Belize"
+ },
+ {
+  "code": "BJ",
+  "name": "Benin",
+  "aliases": [
+   "Benin"
+  ],
+  "flag": "🇧🇯",
+  "img": "https://flagcdn.com/w40/bj.png",
+  "tz": "Africa/Porto-Novo"
+ },
+ {
+  "code": "BM",
+  "name": "Bermuda",
+  "aliases": [
+   "Bermuda"
+  ],
+  "flag": "🇧🇲",
+  "img": "https://flagcdn.com/w40/bm.png",
+  "tz": "Atlantic/Bermuda"
+ },
+ {
+  "code": "BT",
+  "name": "Bhutan",
+  "aliases": [
+   "Bhutan"
+  ],
+  "flag": "🇧🇹",
+  "img": "https://flagcdn.com/w40/bt.png",
+  "tz": "Asia/Thimphu"
+ },
+ {
+  "code": "BO",
+  "name": "Bolivia",
+  "aliases": [
+   "Bolivia"
+  ],
+  "flag": "🇧🇴",
+  "img": "https://flagcdn.com/w40/bo.png",
+  "tz": "America/La_Paz"
+ },
+ {
+  "code": "BA",
+  "name": "Bosnia and Herzegovina",
+  "aliases": [
+   "Bosnia and Herzegovina"
+  ],
+  "flag": "🇧🇦",
+  "img": "https://flagcdn.com/w40/ba.png",
+  "tz": "Europe/Sarajevo"
+ },
+ {
+  "code": "BW",
+  "name": "Botswana",
+  "aliases": [
+   "Botswana"
+  ],
+  "flag": "🇧🇼",
+  "img": "https://flagcdn.com/w40/bw.png",
+  "tz": "Africa/Gaborone"
+ },
+ {
+  "code": "BR",
+  "name": "Brazil",
+  "aliases": [
+   "Brazil"
+  ],
+  "flag": "🇧🇷",
+  "img": "https://flagcdn.com/w40/br.png",
+  "tz": "America/Sao_Paulo"
+ },
+ {
+  "code": "VG",
+  "name": "British Virgin Islands",
+  "aliases": [
+   "British Virgin Islands"
+  ],
+  "flag": "🇻🇬",
+  "img": "https://flagcdn.com/w40/vg.png",
+  "tz": "America/Tortola"
+ },
+ {
+  "code": "BN",
+  "name": "Brunei",
+  "aliases": [
+   "Brunei"
+  ],
+  "flag": "🇧🇳",
+  "img": "https://flagcdn.com/w40/bn.png",
+  "tz": "Asia/Brunei"
+ },
+ {
+  "code": "BG",
+  "name": "Bulgaria",
+  "aliases": [
+   "Bulgaria"
+  ],
+  "flag": "🇧🇬",
+  "img": "https://flagcdn.com/w40/bg.png",
+  "tz": "Europe/Sofia"
+ },
+ {
+  "code": "BF",
+  "name": "Burkina Faso",
+  "aliases": [
+   "Burkina Faso"
+  ],
+  "flag": "🇧🇫",
+  "img": "https://flagcdn.com/w40/bf.png",
+  "tz": "Africa/Ouagadougou"
+ },
+ {
+  "code": "BI",
+  "name": "Burundi",
+  "aliases": [
+   "Burundi"
+  ],
+  "flag": "🇧🇮",
+  "img": "https://flagcdn.com/w40/bi.png",
+  "tz": "Africa/Bujumbura"
+ },
+ {
+  "code": "KH",
+  "name": "Cambodia",
+  "aliases": [
+   "Cambodia"
+  ],
+  "flag": "🇰🇭",
+  "img": "https://flagcdn.com/w40/kh.png",
+  "tz": "Asia/Phnom_Penh"
+ },
+ {
+  "code": "CM",
+  "name": "Cameroon",
+  "aliases": [
+   "Cameroon"
+  ],
+  "flag": "🇨🇲",
+  "img": "https://flagcdn.com/w40/cm.png",
+  "tz": "Africa/Douala"
+ },
+ {
+  "code": "CA",
+  "name": "Canada",
+  "aliases": [
+   "Canada"
+  ],
+  "flag": "🇨🇦",
+  "img": "https://flagcdn.com/w40/ca.png",
+  "tz": "America/Toronto"
+ },
+ {
+  "code": "CV",
+  "name": "Cape Verde",
+  "aliases": [
+   "Cape Verde",
+   "Cabo Verde"
+  ],
+  "flag": "🇨🇻",
+  "img": "https://flagcdn.com/w40/cv.png",
+  "tz": "Atlantic/Cape_Verde"
+ },
+ {
+  "code": "BQ",
+  "name": "Caribbean Netherlands",
+  "aliases": [
+   "Caribbean Netherlands"
+  ],
+  "flag": "🇧🇶",
+  "img": "https://flagcdn.com/w40/bq.png",
+  "tz": "America/Kralendijk"
+ },
+ {
+  "code": "KY",
+  "name": "Cayman Islands",
+  "aliases": [
+   "Cayman Islands"
+  ],
+  "flag": "🇰🇾",
+  "img": "https://flagcdn.com/w40/ky.png",
+  "tz": "America/Cayman"
+ },
+ {
+  "code": "CF",
+  "name": "Central African Republic",
+  "aliases": [
+   "Central African Republic"
+  ],
+  "flag": "🇨🇫",
+  "img": "https://flagcdn.com/w40/cf.png",
+  "tz": "Africa/Bangui"
+ },
+ {
+  "code": "TD",
+  "name": "Chad",
+  "aliases": [
+   "Chad"
+  ],
+  "flag": "🇹🇩",
+  "img": "https://flagcdn.com/w40/td.png",
+  "tz": "Africa/Ndjamena"
+ },
+ {
+  "code": "CL",
+  "name": "Chile",
+  "aliases": [
+   "Chile"
+  ],
+  "flag": "🇨🇱",
+  "img": "https://flagcdn.com/w40/cl.png",
+  "tz": "America/Santiago"
+ },
+ {
+  "code": "CN",
+  "name": "China",
+  "aliases": [
+   "China"
+  ],
+  "flag": "🇨🇳",
+  "img": "https://flagcdn.com/w40/cn.png",
+  "tz": "Asia/Shanghai"
+ },
+ {
+  "code": "CX",
+  "name": "Christmas Island",
+  "aliases": [
+   "Christmas Island"
+  ],
+  "flag": "🇨🇽",
+  "img": "https://flagcdn.com/w40/cx.png",
+  "tz": "Indian/Christmas"
+ },
+ {
+  "code": "CC",
+  "name": "Cocos (Keeling) Islands",
+  "aliases": [
+   "Cocos (Keeling) Islands"
+  ],
+  "flag": "🇨🇨",
+  "img": "https://flagcdn.com/w40/cc.png",
+  "tz": "Indian/Cocos"
+ },
+ {
+  "code": "CO",
+  "name": "Colombia",
+  "aliases": [
+   "Colombia"
+  ],
+  "flag": "🇨🇴",
+  "img": "https://flagcdn.com/w40/co.png",
+  "tz": "America/Bogota"
+ },
+ {
+  "code": "KM",
+  "name": "Comoros",
+  "aliases": [
+   "Comoros"
+  ],
+  "flag": "🇰🇲",
+  "img": "https://flagcdn.com/w40/km.png",
+  "tz": "Indian/Comoro"
+ },
+ {
+  "code": "CK",
+  "name": "Cook Islands",
+  "aliases": [
+   "Cook Islands"
+  ],
+  "flag": "🇨🇰",
+  "img": "https://flagcdn.com/w40/ck.png",
+  "tz": "Pacific/Rarotonga"
+ },
+ {
+  "code": "CR",
+  "name": "Costa Rica",
+  "aliases": [
+   "Costa Rica"
+  ],
+  "flag": "🇨🇷",
+  "img": "https://flagcdn.com/w40/cr.png",
+  "tz": "America/Costa_Rica"
+ },
+ {
+  "code": "HR",
+  "name": "Croatia",
+  "aliases": [
+   "Croatia"
+  ],
+  "flag": "🇭🇷",
+  "img": "https://flagcdn.com/w40/hr.png",
+  "tz": "Europe/Zagreb"
+ },
+ {
+  "code": "CU",
+  "name": "Cuba",
+  "aliases": [
+   "Cuba"
+  ],
+  "flag": "🇨🇺",
+  "img": "https://flagcdn.com/w40/cu.png",
+  "tz": "America/Havana"
+ },
+ {
+  "code": "CW",
+  "name": "Curaçao",
+  "aliases": [
+   "Curaçao"
+  ],
+  "flag": "🇨🇼",
+  "img": "https://flagcdn.com/w40/cw.png",
+  "tz": "America/Curacao"
+ },
+ {
+  "code": "CY",
+  "name": "Cyprus",
+  "aliases": [
+   "Cyprus"
+  ],
+  "flag": "🇨🇾",
+  "img": "https://flagcdn.com/w40/cy.png",
+  "tz": "Asia/Nicosia"
+ },
+ {
+  "code": "CZ",
+  "name": "Czechia",
+  "aliases": [
+   "Czechia",
+   "Czech Republic"
+  ],
+  "flag": "🇨🇿",
+  "img": "https://flagcdn.com/w40/cz.png",
+  "tz": "Europe/Prague"
+ },
+ {
+  "code": "CI",
+  "name": "Côte d'Ivoire",
+  "aliases": [
+   "Côte d'Ivoire",
+   "Ivory Coast"
+  ],
+  "flag": "🇨🇮",
+  "img": "https://flagcdn.com/w40/ci.png",
+  "tz": "Africa/Abidjan"
+ },
+ {
+  "code": "CD",
+  "name": "Democratic Republic of the Congo",
+  "aliases": [
+   "Democratic Republic of the Congo",
+   "DR Congo",
+   "Congo"
+  ],
+  "flag": "🇨🇩",
+  "img": "https://flagcdn.com/w40/cd.png",
+  "tz": "Africa/Kinshasa"
+ },
+ {
+  "code": "DK",
+  "name": "Denmark",
+  "aliases": [
+   "Denmark"
+  ],
+  "flag": "🇩🇰",
+  "img": "https://flagcdn.com/w40/dk.png",
+  "tz": "Europe/Copenhagen"
+ },
+ {
+  "code": "DJ",
+  "name": "Djibouti",
+  "aliases": [
+   "Djibouti"
+  ],
+  "flag": "🇩🇯",
+  "img": "https://flagcdn.com/w40/dj.png",
+  "tz": "Africa/Djibouti"
+ },
+ {
+  "code": "DM",
+  "name": "Dominica",
+  "aliases": [
+   "Dominica"
+  ],
+  "flag": "🇩🇲",
+  "img": "https://flagcdn.com/w40/dm.png",
+  "tz": "America/Dominica"
+ },
+ {
+  "code": "DO",
+  "name": "Dominican Republic",
+  "aliases": [
+   "Dominican Republic"
+  ],
+  "flag": "🇩🇴",
+  "img": "https://flagcdn.com/w40/do.png",
+  "tz": "America/Santo_Domingo"
+ },
+ {
+  "code": "EC",
+  "name": "Ecuador",
+  "aliases": [
+   "Ecuador"
+  ],
+  "flag": "🇪🇨",
+  "img": "https://flagcdn.com/w40/ec.png",
+  "tz": "America/Guayaquil"
+ },
+ {
+  "code": "EG",
+  "name": "Egypt",
+  "aliases": [
+   "Egypt"
+  ],
+  "flag": "🇪🇬",
+  "img": "https://flagcdn.com/w40/eg.png",
+  "tz": "Africa/Cairo"
+ },
+ {
+  "code": "SV",
+  "name": "El Salvador",
+  "aliases": [
+   "El Salvador"
+  ],
+  "flag": "🇸🇻",
+  "img": "https://flagcdn.com/w40/sv.png",
+  "tz": "America/El_Salvador"
+ },
+ {
+  "code": "GB-ENG",
+  "name": "England",
+  "aliases": [],
+  "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "img": "https://flagcdn.com/w40/gb-eng.png",
+  "tz": "Europe/London"
+ },
+ {
+  "code": "GQ",
+  "name": "Equatorial Guinea",
+  "aliases": [
+   "Equatorial Guinea"
+  ],
+  "flag": "🇬🇶",
+  "img": "https://flagcdn.com/w40/gq.png",
+  "tz": "Africa/Malabo"
+ },
+ {
+  "code": "ER",
+  "name": "Eritrea",
+  "aliases": [
+   "Eritrea"
+  ],
+  "flag": "🇪🇷",
+  "img": "https://flagcdn.com/w40/er.png",
+  "tz": "Africa/Asmara"
+ },
+ {
+  "code": "EE",
+  "name": "Estonia",
+  "aliases": [
+   "Estonia"
+  ],
+  "flag": "🇪🇪",
+  "img": "https://flagcdn.com/w40/ee.png",
+  "tz": "Europe/Tallinn"
+ },
+ {
+  "code": "SZ",
+  "name": "Eswatini",
+  "aliases": [
+   "Eswatini",
+   "Swaziland"
+  ],
+  "flag": "🇸🇿",
+  "img": "https://flagcdn.com/w40/sz.png",
+  "tz": "Africa/Mbabane"
+ },
+ {
+  "code": "ET",
+  "name": "Ethiopia",
+  "aliases": [
+   "Ethiopia"
+  ],
+  "flag": "🇪🇹",
+  "img": "https://flagcdn.com/w40/et.png",
+  "tz": "Africa/Addis_Ababa"
+ },
+ {
+  "code": "FK",
+  "name": "Falkland Islands",
+  "aliases": [
+   "Falkland Islands"
+  ],
+  "flag": "🇫🇰",
+  "img": "https://flagcdn.com/w40/fk.png",
+  "tz": "Atlantic/Stanley"
+ },
+ {
+  "code": "FO",
+  "name": "Faroe Islands",
+  "aliases": [
+   "Faroe Islands"
+  ],
+  "flag": "🇫🇴",
+  "img": "https://flagcdn.com/w40/fo.png",
+  "tz": "Atlantic/Faroe"
+ },
+ {
+  "code": "FJ",
+  "name": "Fiji",
+  "aliases": [
+   "Fiji"
+  ],
+  "flag": "🇫🇯",
+  "img": "https://flagcdn.com/w40/fj.png",
+  "tz": "Pacific/Fiji"
+ },
+ {
+  "code": "FI",
+  "name": "Finland",
+  "aliases": [
+   "Finland"
+  ],
+  "flag": "🇫🇮",
+  "img": "https://flagcdn.com/w40/fi.png",
+  "tz": "Europe/Helsinki"
+ },
+ {
+  "code": "FR",
+  "name": "France",
+  "aliases": [
+   "France"
+  ],
+  "flag": "🇫🇷",
+  "img": "https://flagcdn.com/w40/fr.png",
+  "tz": "Europe/Paris"
+ },
+ {
+  "code": "GF",
+  "name": "French Guiana",
+  "aliases": [
+   "French Guiana"
+  ],
+  "flag": "🇬🇫",
+  "img": "https://flagcdn.com/w40/gf.png",
+  "tz": "America/Cayenne"
+ },
+ {
+  "code": "PF",
+  "name": "French Polynesia",
+  "aliases": [
+   "French Polynesia"
+  ],
+  "flag": "🇵🇫",
+  "img": "https://flagcdn.com/w40/pf.png",
+  "tz": "Pacific/Tahiti"
+ },
+ {
+  "code": "GA",
+  "name": "Gabon",
+  "aliases": [
+   "Gabon"
+  ],
+  "flag": "🇬🇦",
+  "img": "https://flagcdn.com/w40/ga.png",
+  "tz": "Africa/Libreville"
+ },
+ {
+  "code": "GM",
+  "name": "Gambia",
+  "aliases": [
+   "Gambia"
+  ],
+  "flag": "🇬🇲",
+  "img": "https://flagcdn.com/w40/gm.png",
+  "tz": "Africa/Banjul"
+ },
+ {
+  "code": "GE",
+  "name": "Georgia",
+  "aliases": [
+   "Georgia"
+  ],
+  "flag": "🇬🇪",
+  "img": "https://flagcdn.com/w40/ge.png",
+  "tz": "Asia/Tbilisi"
+ },
+ {
+  "code": "DE",
+  "name": "Germany",
+  "aliases": [
+   "Germany"
+  ],
+  "flag": "🇩🇪",
+  "img": "https://flagcdn.com/w40/de.png",
+  "tz": "Europe/Berlin"
+ },
+ {
+  "code": "GH",
+  "name": "Ghana",
+  "aliases": [
+   "Ghana"
+  ],
+  "flag": "🇬🇭",
+  "img": "https://flagcdn.com/w40/gh.png",
+  "tz": "Africa/Accra"
+ },
+ {
+  "code": "GI",
+  "name": "Gibraltar",
+  "aliases": [
+   "Gibraltar"
+  ],
+  "flag": "🇬🇮",
+  "img": "https://flagcdn.com/w40/gi.png",
+  "tz": "Europe/Gibraltar"
+ },
+ {
+  "code": "GR",
+  "name": "Greece",
+  "aliases": [
+   "Greece"
+  ],
+  "flag": "🇬🇷",
+  "img": "https://flagcdn.com/w40/gr.png",
+  "tz": "Europe/Athens"
+ },
+ {
+  "code": "GL",
+  "name": "Greenland",
+  "aliases": [
+   "Greenland"
+  ],
+  "flag": "🇬🇱",
+  "img": "https://flagcdn.com/w40/gl.png",
+  "tz": "America/Nuuk"
+ },
+ {
+  "code": "GD",
+  "name": "Grenada",
+  "aliases": [
+   "Grenada"
+  ],
+  "flag": "🇬🇩",
+  "img": "https://flagcdn.com/w40/gd.png",
+  "tz": "America/Grenada"
+ },
+ {
+  "code": "GP",
+  "name": "Guadeloupe",
+  "aliases": [
+   "Guadeloupe"
+  ],
+  "flag": "🇬🇵",
+  "img": "https://flagcdn.com/w40/gp.png",
+  "tz": "America/Guadeloupe"
+ },
+ {
+  "code": "GU",
+  "name": "Guam",
+  "aliases": [
+   "Guam"
+  ],
+  "flag": "🇬🇺",
+  "img": "https://flagcdn.com/w40/gu.png",
+  "tz": "Pacific/Guam"
+ },
+ {
+  "code": "GT",
+  "name": "Guatemala",
+  "aliases": [
+   "Guatemala"
+  ],
+  "flag": "🇬🇹",
+  "img": "https://flagcdn.com/w40/gt.png",
+  "tz": "America/Guatemala"
+ },
+ {
+  "code": "GG",
+  "name": "Guernsey",
+  "aliases": [
+   "Guernsey"
+  ],
+  "flag": "🇬🇬",
+  "img": "https://flagcdn.com/w40/gg.png",
+  "tz": "Europe/Guernsey"
+ },
+ {
+  "code": "GN",
+  "name": "Guinea",
+  "aliases": [
+   "Guinea"
+  ],
+  "flag": "🇬🇳",
+  "img": "https://flagcdn.com/w40/gn.png",
+  "tz": "Africa/Conakry"
+ },
+ {
+  "code": "GW",
+  "name": "Guinea-Bissau",
+  "aliases": [
+   "Guinea-Bissau"
+  ],
+  "flag": "🇬🇼",
+  "img": "https://flagcdn.com/w40/gw.png",
+  "tz": "Africa/Bissau"
+ },
+ {
+  "code": "GY",
+  "name": "Guyana",
+  "aliases": [
+   "Guyana"
+  ],
+  "flag": "🇬🇾",
+  "img": "https://flagcdn.com/w40/gy.png",
+  "tz": "America/Guyana"
+ },
+ {
+  "code": "HT",
+  "name": "Haiti",
+  "aliases": [
+   "Haiti"
+  ],
+  "flag": "🇭🇹",
+  "img": "https://flagcdn.com/w40/ht.png",
+  "tz": "America/Port-au-Prince"
+ },
+ {
+  "code": "HM",
+  "name": "Heard Island and McDonald Islands",
+  "aliases": [
+   "Heard Island and McDonald Islands"
+  ],
+  "flag": "🇭🇲",
+  "img": "https://flagcdn.com/w40/hm.png",
+  "tz": "Indian/Kerguelen"
+ },
+ {
+  "code": "HN",
+  "name": "Honduras",
+  "aliases": [
+   "Honduras"
+  ],
+  "flag": "🇭🇳",
+  "img": "https://flagcdn.com/w40/hn.png",
+  "tz": "America/Tegucigalpa"
+ },
+ {
+  "code": "HK",
+  "name": "Hong Kong",
+  "aliases": [
+   "Hong Kong"
+  ],
+  "flag": "🇭🇰",
+  "img": "https://flagcdn.com/w40/hk.png",
+  "tz": "Asia/Hong_Kong"
+ },
+ {
+  "code": "HU",
+  "name": "Hungary",
+  "aliases": [
+   "Hungary"
+  ],
+  "flag": "🇭🇺",
+  "img": "https://flagcdn.com/w40/hu.png",
+  "tz": "Europe/Budapest"
+ },
+ {
+  "code": "IS",
+  "name": "Iceland",
+  "aliases": [
+   "Iceland"
+  ],
+  "flag": "🇮🇸",
+  "img": "https://flagcdn.com/w40/is.png",
+  "tz": "Atlantic/Reykjavik"
+ },
+ {
+  "code": "IN",
+  "name": "India",
+  "aliases": [
+   "India"
+  ],
+  "flag": "🇮🇳",
+  "img": "https://flagcdn.com/w40/in.png",
+  "tz": "Asia/Kolkata"
+ },
+ {
+  "code": "ID",
+  "name": "Indonesia",
+  "aliases": [
+   "Indonesia"
+  ],
+  "flag": "🇮🇩",
+  "img": "https://flagcdn.com/w40/id.png",
+  "tz": "Asia/Jakarta"
+ },
+ {
+  "code": "IR",
+  "name": "Iran",
+  "aliases": [
+   "Iran"
+  ],
+  "flag": "🇮🇷",
+  "img": "https://flagcdn.com/w40/ir.png",
+  "tz": "Asia/Tehran"
+ },
+ {
+  "code": "IQ",
+  "name": "Iraq",
+  "aliases": [
+   "Iraq"
+  ],
+  "flag": "🇮🇶",
+  "img": "https://flagcdn.com/w40/iq.png",
+  "tz": "Asia/Baghdad"
+ },
+ {
+  "code": "IE",
+  "name": "Ireland",
+  "aliases": [
+   "Ireland"
+  ],
+  "flag": "🇮🇪",
+  "img": "https://flagcdn.com/w40/ie.png",
+  "tz": "Europe/Dublin"
+ },
+ {
+  "code": "IM",
+  "name": "Isle of Man",
+  "aliases": [
+   "Isle of Man"
+  ],
+  "flag": "🇮🇲",
+  "img": "https://flagcdn.com/w40/im.png",
+  "tz": "Europe/Isle_of_Man"
+ },
+ {
+  "code": "IL",
+  "name": "Israel",
+  "aliases": [
+   "Israel"
+  ],
+  "flag": "🇮🇱",
+  "img": "https://flagcdn.com/w40/il.png",
+  "tz": "Asia/Jerusalem"
+ },
+ {
+  "code": "IT",
+  "name": "Italy",
+  "aliases": [
+   "Italy"
+  ],
+  "flag": "🇮🇹",
+  "img": "https://flagcdn.com/w40/it.png",
+  "tz": "Europe/Rome"
+ },
+ {
+  "code": "JM",
+  "name": "Jamaica",
+  "aliases": [
+   "Jamaica"
+  ],
+  "flag": "🇯🇲",
+  "img": "https://flagcdn.com/w40/jm.png",
+  "tz": "America/Jamaica"
+ },
+ {
+  "code": "JP",
+  "name": "Japan",
+  "aliases": [
+   "Japan"
+  ],
+  "flag": "🇯🇵",
+  "img": "https://flagcdn.com/w40/jp.png",
+  "tz": "Asia/Tokyo"
+ },
+ {
+  "code": "JE",
+  "name": "Jersey",
+  "aliases": [
+   "Jersey"
+  ],
+  "flag": "🇯🇪",
+  "img": "https://flagcdn.com/w40/je.png",
+  "tz": "Europe/Jersey"
+ },
+ {
+  "code": "JO",
+  "name": "Jordan",
+  "aliases": [
+   "Jordan"
+  ],
+  "flag": "🇯🇴",
+  "img": "https://flagcdn.com/w40/jo.png",
+  "tz": "Asia/Amman"
+ },
+ {
+  "code": "KZ",
+  "name": "Kazakhstan",
+  "aliases": [
+   "Kazakhstan"
+  ],
+  "flag": "🇰🇿",
+  "img": "https://flagcdn.com/w40/kz.png",
+  "tz": "Asia/Almaty"
+ },
+ {
+  "code": "KE",
+  "name": "Kenya",
+  "aliases": [
+   "Kenya"
+  ],
+  "flag": "🇰🇪",
+  "img": "https://flagcdn.com/w40/ke.png",
+  "tz": "Africa/Nairobi"
+ },
+ {
+  "code": "KI",
+  "name": "Kiribati",
+  "aliases": [
+   "Kiribati"
+  ],
+  "flag": "🇰🇮",
+  "img": "https://flagcdn.com/w40/ki.png",
+  "tz": "Pacific/Tarawa"
+ },
+ {
+  "code": "XK",
+  "name": "Kosovo",
+  "aliases": [
+   "Kosovo"
+  ],
+  "flag": "🇽🇰",
+  "img": "https://flagcdn.com/w40/xk.png",
+  "tz": "Europe/Belgrade"
+ },
+ {
+  "code": "KW",
+  "name": "Kuwait",
+  "aliases": [
+   "Kuwait"
+  ],
+  "flag": "🇰🇼",
+  "img": "https://flagcdn.com/w40/kw.png",
+  "tz": "Asia/Kuwait"
+ },
+ {
+  "code": "KG",
+  "name": "Kyrgyzstan",
+  "aliases": [
+   "Kyrgyzstan"
+  ],
+  "flag": "🇰🇬",
+  "img": "https://flagcdn.com/w40/kg.png",
+  "tz": "Asia/Bishkek"
+ },
+ {
+  "code": "LA",
+  "name": "Laos",
+  "aliases": [
+   "Laos"
+  ],
+  "flag": "🇱🇦",
+  "img": "https://flagcdn.com/w40/la.png",
+  "tz": "Asia/Vientiane"
+ },
+ {
+  "code": "LV",
+  "name": "Latvia",
+  "aliases": [
+   "Latvia"
+  ],
+  "flag": "🇱🇻",
+  "img": "https://flagcdn.com/w40/lv.png",
+  "tz": "Europe/Riga"
+ },
+ {
+  "code": "LB",
+  "name": "Lebanon",
+  "aliases": [
+   "Lebanon"
+  ],
+  "flag": "🇱🇧",
+  "img": "https://flagcdn.com/w40/lb.png",
+  "tz": "Asia/Beirut"
+ },
+ {
+  "code": "LS",
+  "name": "Lesotho",
+  "aliases": [
+   "Lesotho"
+  ],
+  "flag": "🇱🇸",
+  "img": "https://flagcdn.com/w40/ls.png",
+  "tz": "Africa/Maseru"
+ },
+ {
+  "code": "LR",
+  "name": "Liberia",
+  "aliases": [
+   "Liberia"
+  ],
+  "flag": "🇱🇷",
+  "img": "https://flagcdn.com/w40/lr.png",
+  "tz": "Africa/Monrovia"
+ },
+ {
+  "code": "LY",
+  "name": "Libya",
+  "aliases": [
+   "Libya"
+  ],
+  "flag": "🇱🇾",
+  "img": "https://flagcdn.com/w40/ly.png",
+  "tz": "Africa/Tripoli"
+ },
+ {
+  "code": "LI",
+  "name": "Liechtenstein",
+  "aliases": [
+   "Liechtenstein"
+  ],
+  "flag": "🇱🇮",
+  "img": "https://flagcdn.com/w40/li.png",
+  "tz": "Europe/Vaduz"
+ },
+ {
+  "code": "LT",
+  "name": "Lithuania",
+  "aliases": [
+   "Lithuania"
+  ],
+  "flag": "🇱🇹",
+  "img": "https://flagcdn.com/w40/lt.png",
+  "tz": "Europe/Vilnius"
+ },
+ {
+  "code": "LU",
+  "name": "Luxembourg",
+  "aliases": [
+   "Luxembourg"
+  ],
+  "flag": "🇱🇺",
+  "img": "https://flagcdn.com/w40/lu.png",
+  "tz": "Europe/Luxembourg"
+ },
+ {
+  "code": "MO",
+  "name": "Macau",
+  "aliases": [
+   "Macau"
+  ],
+  "flag": "🇲🇴",
+  "img": "https://flagcdn.com/w40/mo.png",
+  "tz": "Asia/Macau"
+ },
+ {
+  "code": "MG",
+  "name": "Madagascar",
+  "aliases": [
+   "Madagascar"
+  ],
+  "flag": "🇲🇬",
+  "img": "https://flagcdn.com/w40/mg.png",
+  "tz": "Indian/Antananarivo"
+ },
+ {
+  "code": "MW",
+  "name": "Malawi",
+  "aliases": [
+   "Malawi"
+  ],
+  "flag": "🇲🇼",
+  "img": "https://flagcdn.com/w40/mw.png",
+  "tz": "Africa/Blantyre"
+ },
+ {
+  "code": "MY",
+  "name": "Malaysia",
+  "aliases": [
+   "Malaysia"
+  ],
+  "flag": "🇲🇾",
+  "img": "https://flagcdn.com/w40/my.png",
+  "tz": "Asia/Kuala_Lumpur"
+ },
+ {
+  "code": "MV",
+  "name": "Maldives",
+  "aliases": [
+   "Maldives"
+  ],
+  "flag": "🇲🇻",
+  "img": "https://flagcdn.com/w40/mv.png",
+  "tz": "Indian/Maldives"
+ },
+ {
+  "code": "ML",
+  "name": "Mali",
+  "aliases": [
+   "Mali"
+  ],
+  "flag": "🇲🇱",
+  "img": "https://flagcdn.com/w40/ml.png",
+  "tz": "Africa/Bamako"
+ },
+ {
+  "code": "MT",
+  "name": "Malta",
+  "aliases": [
+   "Malta"
+  ],
+  "flag": "🇲🇹",
+  "img": "https://flagcdn.com/w40/mt.png",
+  "tz": "Europe/Malta"
+ },
+ {
+  "code": "MH",
+  "name": "Marshall Islands",
+  "aliases": [
+   "Marshall Islands"
+  ],
+  "flag": "🇲🇭",
+  "img": "https://flagcdn.com/w40/mh.png",
+  "tz": "Pacific/Majuro"
+ },
+ {
+  "code": "MQ",
+  "name": "Martinique",
+  "aliases": [
+   "Martinique"
+  ],
+  "flag": "🇲🇶",
+  "img": "https://flagcdn.com/w40/mq.png",
+  "tz": "America/Martinique"
+ },
+ {
+  "code": "MR",
+  "name": "Mauritania",
+  "aliases": [
+   "Mauritania"
+  ],
+  "flag": "🇲🇷",
+  "img": "https://flagcdn.com/w40/mr.png",
+  "tz": "Africa/Nouakchott"
+ },
+ {
+  "code": "MU",
+  "name": "Mauritius",
+  "aliases": [
+   "Mauritius"
+  ],
+  "flag": "🇲🇺",
+  "img": "https://flagcdn.com/w40/mu.png",
+  "tz": "Indian/Mauritius"
+ },
+ {
+  "code": "YT",
+  "name": "Mayotte",
+  "aliases": [
+   "Mayotte"
+  ],
+  "flag": "🇾🇹",
+  "img": "https://flagcdn.com/w40/yt.png",
+  "tz": "Indian/Mayotte"
+ },
+ {
+  "code": "MX",
+  "name": "Mexico",
+  "aliases": [
+   "Mexico"
+  ],
+  "flag": "🇲🇽",
+  "img": "https://flagcdn.com/w40/mx.png",
+  "tz": "America/Mexico_City"
+ },
+ {
+  "code": "FM",
+  "name": "Micronesia",
+  "aliases": [
+   "Micronesia"
+  ],
+  "flag": "🇫🇲",
+  "img": "https://flagcdn.com/w40/fm.png",
+  "tz": "Pacific/Chuuk"
+ },
+ {
+  "code": "MD",
+  "name": "Moldova",
+  "aliases": [
+   "Moldova"
+  ],
+  "flag": "🇲🇩",
+  "img": "https://flagcdn.com/w40/md.png",
+  "tz": "Europe/Chisinau"
+ },
+ {
+  "code": "MC",
+  "name": "Monaco",
+  "aliases": [
+   "Monaco"
+  ],
+  "flag": "🇲🇨",
+  "img": "https://flagcdn.com/w40/mc.png",
+  "tz": "Europe/Monaco"
+ },
+ {
+  "code": "MN",
+  "name": "Mongolia",
+  "aliases": [
+   "Mongolia"
+  ],
+  "flag": "🇲🇳",
+  "img": "https://flagcdn.com/w40/mn.png",
+  "tz": "Asia/Ulaanbaatar"
+ },
+ {
+  "code": "ME",
+  "name": "Montenegro",
+  "aliases": [
+   "Montenegro"
+  ],
+  "flag": "🇲🇪",
+  "img": "https://flagcdn.com/w40/me.png",
+  "tz": "Europe/Podgorica"
+ },
+ {
+  "code": "MS",
+  "name": "Montserrat",
+  "aliases": [
+   "Montserrat"
+  ],
+  "flag": "🇲🇸",
+  "img": "https://flagcdn.com/w40/ms.png",
+  "tz": "America/Montserrat"
+ },
+ {
+  "code": "MA",
+  "name": "Morocco",
+  "aliases": [
+   "Morocco"
+  ],
+  "flag": "🇲🇦",
+  "img": "https://flagcdn.com/w40/ma.png",
+  "tz": "Africa/Casablanca"
+ },
+ {
+  "code": "MZ",
+  "name": "Mozambique",
+  "aliases": [
+   "Mozambique"
+  ],
+  "flag": "🇲🇿",
+  "img": "https://flagcdn.com/w40/mz.png",
+  "tz": "Africa/Maputo"
+ },
+ {
+  "code": "MM",
+  "name": "Myanmar",
+  "aliases": [
+   "Myanmar",
+   "Burma"
+  ],
+  "flag": "🇲🇲",
+  "img": "https://flagcdn.com/w40/mm.png",
+  "tz": "Asia/Yangon"
+ },
+ {
+  "code": "NA",
+  "name": "Namibia",
+  "aliases": [
+   "Namibia"
+  ],
+  "flag": "🇳🇦",
+  "img": "https://flagcdn.com/w40/na.png",
+  "tz": "Africa/Windhoek"
+ },
+ {
+  "code": "NR",
+  "name": "Nauru",
+  "aliases": [
+   "Nauru"
+  ],
+  "flag": "🇳🇷",
+  "img": "https://flagcdn.com/w40/nr.png",
+  "tz": "Pacific/Nauru"
+ },
+ {
+  "code": "NP",
+  "name": "Nepal",
+  "aliases": [
+   "Nepal"
+  ],
+  "flag": "🇳🇵",
+  "img": "https://flagcdn.com/w40/np.png",
+  "tz": "Asia/Kathmandu"
+ },
+ {
+  "code": "NL",
+  "name": "Netherlands",
+  "aliases": [
+   "Netherlands",
+   "Holland",
+   "Netherlands"
+  ],
+  "flag": "🇳🇱",
+  "img": "https://flagcdn.com/w40/nl.png",
+  "tz": "Europe/Amsterdam"
+ },
+ {
+  "code": "NC",
+  "name": "New Caledonia",
+  "aliases": [
+   "New Caledonia"
+  ],
+  "flag": "🇳🇨",
+  "img": "https://flagcdn.com/w40/nc.png",
+  "tz": "Pacific/Noumea"
+ },
+ {
+  "code": "NZ",
+  "name": "New Zealand",
+  "aliases": [
+   "New Zealand"
+  ],
+  "flag": "🇳🇿",
+  "img": "https://flagcdn.com/w40/nz.png",
+  "tz": "Pacific/Auckland"
+ },
+ {
+  "code": "NI",
+  "name": "Nicaragua",
+  "aliases": [
+   "Nicaragua"
+  ],
+  "flag": "🇳🇮",
+  "img": "https://flagcdn.com/w40/ni.png",
+  "tz": "America/Managua"
+ },
+ {
+  "code": "NE",
+  "name": "Niger",
+  "aliases": [
+   "Niger"
+  ],
+  "flag": "🇳🇪",
+  "img": "https://flagcdn.com/w40/ne.png",
+  "tz": "Africa/Niamey"
+ },
+ {
+  "code": "NG",
+  "name": "Nigeria",
+  "aliases": [
+   "Nigeria"
+  ],
+  "flag": "🇳🇬",
+  "img": "https://flagcdn.com/w40/ng.png",
+  "tz": "Africa/Lagos"
+ },
+ {
+  "code": "NU",
+  "name": "Niue",
+  "aliases": [
+   "Niue"
+  ],
+  "flag": "🇳🇺",
+  "img": "https://flagcdn.com/w40/nu.png",
+  "tz": "Pacific/Niue"
+ },
+ {
+  "code": "NF",
+  "name": "Norfolk Island",
+  "aliases": [
+   "Norfolk Island"
+  ],
+  "flag": "🇳🇫",
+  "img": "https://flagcdn.com/w40/nf.png",
+  "tz": "Pacific/Norfolk"
+ },
+ {
+  "code": "KP",
+  "name": "North Korea",
+  "aliases": [
+   "North Korea",
+   "North Korea"
+  ],
+  "flag": "🇰🇵",
+  "img": "https://flagcdn.com/w40/kp.png",
+  "tz": "Asia/Pyongyang"
+ },
+ {
+  "code": "MK",
+  "name": "North Macedonia",
+  "aliases": [
+   "North Macedonia",
+   "Macedonia"
+  ],
+  "flag": "🇲🇰",
+  "img": "https://flagcdn.com/w40/mk.png",
+  "tz": "Europe/Skopje"
+ },
+ {
+  "code": "GB-NIR",
+  "name": "Northern Ireland",
+  "aliases": [],
+  "flag": "🇬🇧",
+  "img": "https://flagcdn.com/w40/gb-nir.png",
+  "tz": "Europe/London"
+ },
+ {
+  "code": "MP",
+  "name": "Northern Mariana Islands",
+  "aliases": [
+   "Northern Mariana Islands"
+  ],
+  "flag": "🇲🇵",
+  "img": "https://flagcdn.com/w40/mp.png",
+  "tz": "Pacific/Saipan"
+ },
+ {
+  "code": "NO",
+  "name": "Norway",
+  "aliases": [
+   "Norway"
+  ],
+  "flag": "🇳🇴",
+  "img": "https://flagcdn.com/w40/no.png",
+  "tz": "Europe/Oslo"
+ },
+ {
+  "code": "OM",
+  "name": "Oman",
+  "aliases": [
+   "Oman"
+  ],
+  "flag": "🇴🇲",
+  "img": "https://flagcdn.com/w40/om.png",
+  "tz": "Asia/Muscat"
+ },
+ {
+  "code": "PK",
+  "name": "Pakistan",
+  "aliases": [
+   "Pakistan"
+  ],
+  "flag": "🇵🇰",
+  "img": "https://flagcdn.com/w40/pk.png",
+  "tz": "Asia/Karachi"
+ },
+ {
+  "code": "PW",
+  "name": "Palau",
+  "aliases": [
+   "Palau"
+  ],
+  "flag": "🇵🇼",
+  "img": "https://flagcdn.com/w40/pw.png",
+  "tz": "Pacific/Palau"
+ },
+ {
+  "code": "PS",
+  "name": "Palestine",
+  "aliases": [
+   "Palestine",
+   "State of Palestine"
+  ],
+  "flag": "🇵🇸",
+  "img": "https://flagcdn.com/w40/ps.png",
+  "tz": "Asia/Gaza"
+ },
+ {
+  "code": "PA",
+  "name": "Panama",
+  "aliases": [
+   "Panama"
+  ],
+  "flag": "🇵🇦",
+  "img": "https://flagcdn.com/w40/pa.png",
+  "tz": "America/Panama"
+ },
+ {
+  "code": "PG",
+  "name": "Papua New Guinea",
+  "aliases": [
+   "Papua New Guinea"
+  ],
+  "flag": "🇵🇬",
+  "img": "https://flagcdn.com/w40/pg.png",
+  "tz": "Pacific/Port_Moresby"
+ },
+ {
+  "code": "PY",
+  "name": "Paraguay",
+  "aliases": [
+   "Paraguay"
+  ],
+  "flag": "🇵🇾",
+  "img": "https://flagcdn.com/w40/py.png",
+  "tz": "America/Asuncion"
+ },
+ {
+  "code": "PE",
+  "name": "Peru",
+  "aliases": [
+   "Peru"
+  ],
+  "flag": "🇵🇪",
+  "img": "https://flagcdn.com/w40/pe.png",
+  "tz": "America/Lima"
+ },
+ {
+  "code": "PH",
+  "name": "Philippines",
+  "aliases": [
+   "Philippines"
+  ],
+  "flag": "🇵🇭",
+  "img": "https://flagcdn.com/w40/ph.png",
+  "tz": "Asia/Manila"
+ },
+ {
+  "code": "PN",
+  "name": "Pitcairn Islands",
+  "aliases": [
+   "Pitcairn Islands"
+  ],
+  "flag": "🇵🇳",
+  "img": "https://flagcdn.com/w40/pn.png",
+  "tz": "Pacific/Pitcairn"
+ },
+ {
+  "code": "PL",
+  "name": "Poland",
+  "aliases": [
+   "Poland"
+  ],
+  "flag": "🇵🇱",
+  "img": "https://flagcdn.com/w40/pl.png",
+  "tz": "Europe/Warsaw"
+ },
+ {
+  "code": "PT",
+  "name": "Portugal",
+  "aliases": [
+   "Portugal"
+  ],
+  "flag": "🇵🇹",
+  "img": "https://flagcdn.com/w40/pt.png",
+  "tz": "Europe/Lisbon"
+ },
+ {
+  "code": "PR",
+  "name": "Puerto Rico",
+  "aliases": [
+   "Puerto Rico"
+  ],
+  "flag": "🇵🇷",
+  "img": "https://flagcdn.com/w40/pr.png",
+  "tz": "America/Puerto_Rico"
+ },
+ {
+  "code": "QA",
+  "name": "Qatar",
+  "aliases": [
+   "Qatar"
+  ],
+  "flag": "🇶🇦",
+  "img": "https://flagcdn.com/w40/qa.png",
+  "tz": "Asia/Qatar"
+ },
+ {
+  "code": "CG",
+  "name": "Republic of the Congo",
+  "aliases": [
+   "Republic of the Congo"
+  ],
+  "flag": "🇨🇬",
+  "img": "https://flagcdn.com/w40/cg.png",
+  "tz": "Africa/Brazzaville"
+ },
+ {
+  "code": "RO",
+  "name": "Romania",
+  "aliases": [
+   "Romania"
+  ],
+  "flag": "🇷🇴",
+  "img": "https://flagcdn.com/w40/ro.png",
+  "tz": "Europe/Bucharest"
+ },
+ {
+  "code": "RU",
+  "name": "Russia",
+  "aliases": [
+   "Russia",
+   "Russian Federation"
+  ],
+  "flag": "🇷🇺",
+  "img": "https://flagcdn.com/w40/ru.png",
+  "tz": "Europe/Moscow"
+ },
+ {
+  "code": "RW",
+  "name": "Rwanda",
+  "aliases": [
+   "Rwanda"
+  ],
+  "flag": "🇷🇼",
+  "img": "https://flagcdn.com/w40/rw.png",
+  "tz": "Africa/Kigali"
+ },
+ {
+  "code": "RE",
+  "name": "Réunion",
+  "aliases": [
+   "Réunion"
+  ],
+  "flag": "🇷🇪",
+  "img": "https://flagcdn.com/w40/re.png",
+  "tz": "Indian/Reunion"
+ },
+ {
+  "code": "BL",
+  "name": "Saint Barthélemy",
+  "aliases": [
+   "Saint Barthélemy"
+  ],
+  "flag": "🇧🇱",
+  "img": "https://flagcdn.com/w40/bl.png",
+  "tz": "America/St_Barthelemy"
+ },
+ {
+  "code": "SH",
+  "name": "Saint Helena",
+  "aliases": [
+   "Saint Helena"
+  ],
+  "flag": "🇸🇭",
+  "img": "https://flagcdn.com/w40/sh.png",
+  "tz": "Atlantic/St_Helena"
+ },
+ {
+  "code": "KN",
+  "name": "Saint Kitts and Nevis",
+  "aliases": [
+   "Saint Kitts and Nevis"
+  ],
+  "flag": "🇰🇳",
+  "img": "https://flagcdn.com/w40/kn.png",
+  "tz": "America/St_Kitts"
+ },
+ {
+  "code": "LC",
+  "name": "Saint Lucia",
+  "aliases": [
+   "Saint Lucia"
+  ],
+  "flag": "🇱🇨",
+  "img": "https://flagcdn.com/w40/lc.png",
+  "tz": "America/St_Lucia"
+ },
+ {
+  "code": "MF",
+  "name": "Saint Martin",
+  "aliases": [
+   "Saint Martin"
+  ],
+  "flag": "🇲🇫",
+  "img": "https://flagcdn.com/w40/mf.png",
+  "tz": "America/Marigot"
+ },
+ {
+  "code": "PM",
+  "name": "Saint Pierre and Miquelon",
+  "aliases": [
+   "Saint Pierre and Miquelon"
+  ],
+  "flag": "🇵🇲",
+  "img": "https://flagcdn.com/w40/pm.png",
+  "tz": "America/Miquelon"
+ },
+ {
+  "code": "VC",
+  "name": "Saint Vincent and the Grenadines",
+  "aliases": [
+   "Saint Vincent and the Grenadines"
+  ],
+  "flag": "🇻🇨",
+  "img": "https://flagcdn.com/w40/vc.png",
+  "tz": "America/St_Vincent"
+ },
+ {
+  "code": "WS",
+  "name": "Samoa",
+  "aliases": [
+   "Samoa"
+  ],
+  "flag": "🇼🇸",
+  "img": "https://flagcdn.com/w40/ws.png",
+  "tz": "Pacific/Apia"
+ },
+ {
+  "code": "SM",
+  "name": "San Marino",
+  "aliases": [
+   "San Marino"
+  ],
+  "flag": "🇸🇲",
+  "img": "https://flagcdn.com/w40/sm.png",
+  "tz": "Europe/San_Marino"
+ },
+ {
+  "code": "SA",
+  "name": "Saudi Arabia",
+  "aliases": [
+   "Saudi Arabia"
+  ],
+  "flag": "🇸🇦",
+  "img": "https://flagcdn.com/w40/sa.png",
+  "tz": "Asia/Riyadh"
+ },
+ {
+  "code": "GB-SCT",
+  "name": "Scotland",
+  "aliases": [],
+  "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+  "img": "https://flagcdn.com/w40/gb-sct.png",
+  "tz": "Europe/London"
+ },
+ {
+  "code": "SN",
+  "name": "Senegal",
+  "aliases": [
+   "Senegal"
+  ],
+  "flag": "🇸🇳",
+  "img": "https://flagcdn.com/w40/sn.png",
+  "tz": "Africa/Dakar"
+ },
+ {
+  "code": "RS",
+  "name": "Serbia",
+  "aliases": [
+   "Serbia"
+  ],
+  "flag": "🇷🇸",
+  "img": "https://flagcdn.com/w40/rs.png",
+  "tz": "Europe/Belgrade"
+ },
+ {
+  "code": "SC",
+  "name": "Seychelles",
+  "aliases": [
+   "Seychelles"
+  ],
+  "flag": "🇸🇨",
+  "img": "https://flagcdn.com/w40/sc.png",
+  "tz": "Indian/Mahe"
+ },
+ {
+  "code": "SL",
+  "name": "Sierra Leone",
+  "aliases": [
+   "Sierra Leone"
+  ],
+  "flag": "🇸🇱",
+  "img": "https://flagcdn.com/w40/sl.png",
+  "tz": "Africa/Freetown"
+ },
+ {
+  "code": "SG",
+  "name": "Singapore",
+  "aliases": [
+   "Singapore"
+  ],
+  "flag": "🇸🇬",
+  "img": "https://flagcdn.com/w40/sg.png",
+  "tz": "Asia/Singapore"
+ },
+ {
+  "code": "SX",
+  "name": "Sint Maarten",
+  "aliases": [
+   "Sint Maarten"
+  ],
+  "flag": "🇸🇽",
+  "img": "https://flagcdn.com/w40/sx.png",
+  "tz": "America/Lower_Princes"
+ },
+ {
+  "code": "SK",
+  "name": "Slovakia",
+  "aliases": [
+   "Slovakia"
+  ],
+  "flag": "🇸🇰",
+  "img": "https://flagcdn.com/w40/sk.png",
+  "tz": "Europe/Bratislava"
+ },
+ {
+  "code": "SI",
+  "name": "Slovenia",
+  "aliases": [
+   "Slovenia"
+  ],
+  "flag": "🇸🇮",
+  "img": "https://flagcdn.com/w40/si.png",
+  "tz": "Europe/Ljubljana"
+ },
+ {
+  "code": "SB",
+  "name": "Solomon Islands",
+  "aliases": [
+   "Solomon Islands"
+  ],
+  "flag": "🇸🇧",
+  "img": "https://flagcdn.com/w40/sb.png",
+  "tz": "Pacific/Guadalcanal"
+ },
+ {
+  "code": "SO",
+  "name": "Somalia",
+  "aliases": [
+   "Somalia"
+  ],
+  "flag": "🇸🇴",
+  "img": "https://flagcdn.com/w40/so.png",
+  "tz": "Africa/Mogadishu"
+ },
+ {
+  "code": "ZA",
+  "name": "South Africa",
+  "aliases": [
+   "South Africa"
+  ],
+  "flag": "🇿🇦",
+  "img": "https://flagcdn.com/w40/za.png",
+  "tz": "Africa/Johannesburg"
+ },
+ {
+  "code": "GS",
+  "name": "South Georgia and the South Sandwich Islands",
+  "aliases": [
+   "South Georgia and the South Sandwich Islands"
+  ],
+  "flag": "🇬🇸",
+  "img": "https://flagcdn.com/w40/gs.png",
+  "tz": "Atlantic/South_Georgia"
+ },
+ {
+  "code": "KR",
+  "name": "South Korea",
+  "aliases": [
+   "South Korea",
+   "Korea"
+  ],
+  "flag": "🇰🇷",
+  "img": "https://flagcdn.com/w40/kr.png",
+  "tz": "Asia/Seoul"
+ },
+ {
+  "code": "XSO",
+  "name": "South Ossetia",
+  "aliases": [],
+  "flag": "🏳️",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Ossetia.svg?width=40",
+  "tz": "Europe/Moscow"
+ },
+ {
+  "code": "SS",
+  "name": "South Sudan",
+  "aliases": [
+   "South Sudan"
+  ],
+  "flag": "🇸🇸",
+  "img": "https://flagcdn.com/w40/ss.png",
+  "tz": "Africa/Juba"
+ },
+ {
+  "code": "ES",
+  "name": "Spain",
+  "aliases": [
+   "Spain"
+  ],
+  "flag": "🇪🇸",
+  "img": "https://flagcdn.com/w40/es.png",
+  "tz": "Europe/Madrid"
+ },
+ {
+  "code": "LK",
+  "name": "Sri Lanka",
+  "aliases": [
+   "Sri Lanka"
+  ],
+  "flag": "🇱🇰",
+  "img": "https://flagcdn.com/w40/lk.png",
+  "tz": "Asia/Colombo"
+ },
+ {
+  "code": "SD",
+  "name": "Sudan",
+  "aliases": [
+   "Sudan"
+  ],
+  "flag": "🇸🇩",
+  "img": "https://flagcdn.com/w40/sd.png",
+  "tz": "Africa/Khartoum"
+ },
+ {
+  "code": "SR",
+  "name": "Suriname",
+  "aliases": [
+   "Suriname"
+  ],
+  "flag": "🇸🇷",
+  "img": "https://flagcdn.com/w40/sr.png",
+  "tz": "America/Paramaribo"
+ },
+ {
+  "code": "SE",
+  "name": "Sweden",
+  "aliases": [
+   "Sweden"
+  ],
+  "flag": "🇸🇪",
+  "img": "https://flagcdn.com/w40/se.png",
+  "tz": "Europe/Stockholm"
+ },
+ {
+  "code": "CH",
+  "name": "Switzerland",
+  "aliases": [
+   "Switzerland"
+  ],
+  "flag": "🇨🇭",
+  "img": "https://flagcdn.com/w40/ch.png",
+  "tz": "Europe/Zurich"
+ },
+ {
+  "code": "SY",
+  "name": "Syria",
+  "aliases": [
+   "Syria"
+  ],
+  "flag": "🇸🇾",
+  "img": "https://flagcdn.com/w40/sy.png",
+  "tz": "Asia/Damascus"
+ },
+ {
+  "code": "ST",
+  "name": "São Tomé and Príncipe",
+  "aliases": [
+   "São Tomé and Príncipe"
+  ],
+  "flag": "🇸🇹",
+  "img": "https://flagcdn.com/w40/st.png",
+  "tz": "Africa/Sao_Tome"
+ },
+ {
+  "code": "TW",
+  "name": "Taiwan",
+  "aliases": [
+   "Taiwan"
+  ],
+  "flag": "🇹🇼",
+  "img": "https://flagcdn.com/w40/tw.png",
+  "tz": "Asia/Taipei"
+ },
+ {
+  "code": "TJ",
+  "name": "Tajikistan",
+  "aliases": [
+   "Tajikistan"
+  ],
+  "flag": "🇹🇯",
+  "img": "https://flagcdn.com/w40/tj.png",
+  "tz": "Asia/Dushanbe"
+ },
+ {
+  "code": "TZ",
+  "name": "Tanzania",
+  "aliases": [
+   "Tanzania"
+  ],
+  "flag": "🇹🇿",
+  "img": "https://flagcdn.com/w40/tz.png",
+  "tz": "Africa/Dar_es_Salaam"
+ },
+ {
+  "code": "TH",
+  "name": "Thailand",
+  "aliases": [
+   "Thailand"
+  ],
+  "flag": "🇹🇭",
+  "img": "https://flagcdn.com/w40/th.png",
+  "tz": "Asia/Bangkok"
+ },
+ {
+  "code": "TL",
+  "name": "Timor-Leste",
+  "aliases": [
+   "Timor-Leste",
+   "East Timor"
+  ],
+  "flag": "🇹🇱",
+  "img": "https://flagcdn.com/w40/tl.png",
+  "tz": "Asia/Dili"
+ },
+ {
+  "code": "TG",
+  "name": "Togo",
+  "aliases": [
+   "Togo"
+  ],
+  "flag": "🇹🇬",
+  "img": "https://flagcdn.com/w40/tg.png",
+  "tz": "Africa/Lome"
+ },
+ {
+  "code": "TK",
+  "name": "Tokelau",
+  "aliases": [
+   "Tokelau"
+  ],
+  "flag": "🇹🇰",
+  "img": "https://flagcdn.com/w40/tk.png",
+  "tz": "Pacific/Fakaofo"
+ },
+ {
+  "code": "TO",
+  "name": "Tonga",
+  "aliases": [
+   "Tonga"
+  ],
+  "flag": "🇹🇴",
+  "img": "https://flagcdn.com/w40/to.png",
+  "tz": "Pacific/Tongatapu"
+ },
+ {
+  "code": "TT",
+  "name": "Trinidad and Tobago",
+  "aliases": [
+   "Trinidad and Tobago"
+  ],
+  "flag": "🇹🇹",
+  "img": "https://flagcdn.com/w40/tt.png",
+  "tz": "America/Port_of_Spain"
+ },
+ {
+  "code": "TN",
+  "name": "Tunisia",
+  "aliases": [
+   "Tunisia"
+  ],
+  "flag": "🇹🇳",
+  "img": "https://flagcdn.com/w40/tn.png",
+  "tz": "Africa/Tunis"
+ },
+ {
+  "code": "TR",
+  "name": "Turkiye",
+  "aliases": [
+   "Turkey",
+   "Türkiye"
+  ],
+  "flag": "🇹🇷",
+  "img": "https://flagcdn.com/w40/tr.png",
+  "tz": "Europe/Istanbul"
+ },
+ {
+  "code": "TM",
+  "name": "Turkmenistan",
+  "aliases": [
+   "Turkmenistan"
+  ],
+  "flag": "🇹🇲",
+  "img": "https://flagcdn.com/w40/tm.png",
+  "tz": "Asia/Ashgabat"
+ },
+ {
+  "code": "TC",
+  "name": "Turks and Caicos Islands",
+  "aliases": [
+   "Turks and Caicos Islands"
+  ],
+  "flag": "🇹🇨",
+  "img": "https://flagcdn.com/w40/tc.png",
+  "tz": "America/Grand_Turk"
+ },
+ {
+  "code": "TV",
+  "name": "Tuvalu",
+  "aliases": [
+   "Tuvalu"
+  ],
+  "flag": "🇹🇻",
+  "img": "https://flagcdn.com/w40/tv.png",
+  "tz": "Pacific/Funafuti"
+ },
+ {
+  "code": "VI",
+  "name": "U.S. Virgin Islands",
+  "aliases": [
+   "U.S. Virgin Islands"
+  ],
+  "flag": "🇻🇮",
+  "img": "https://flagcdn.com/w40/vi.png",
+  "tz": "America/St_Thomas"
+ },
+ {
+  "code": "UG",
+  "name": "Uganda",
+  "aliases": [
+   "Uganda"
+  ],
+  "flag": "🇺🇬",
+  "img": "https://flagcdn.com/w40/ug.png",
+  "tz": "Africa/Kampala"
+ },
+ {
+  "code": "UA",
+  "name": "Ukraine",
+  "aliases": [
+   "Ukraine"
+  ],
+  "flag": "🇺🇦",
+  "img": "https://flagcdn.com/w40/ua.png",
+  "tz": "Europe/Kyiv"
+ },
+ {
+  "code": "AE",
+  "name": "United Arab Emirates",
+  "aliases": [
+   "United Arab Emirates",
+   "UAE"
+  ],
+  "flag": "🇦🇪",
+  "img": "https://flagcdn.com/w40/ae.png",
+  "tz": "Asia/Dubai"
+ },
+ {
+  "code": "GB",
+  "name": "United Kingdom",
+  "aliases": [
+   "United Kingdom",
+   "UK",
+   "Britain",
+   "Great Britain"
+  ],
+  "flag": "🇬🇧",
+  "img": "https://flagcdn.com/w40/gb.png",
+  "tz": "Europe/London"
+ },
+ {
+  "code": "US",
+  "name": "United States",
+  "aliases": [
+   "United States",
+   "USA",
+   "America",
+   "United States of America"
+  ],
+  "flag": "🇺🇸",
+  "img": "https://flagcdn.com/w40/us.png",
+  "tz": "America/New_York"
+ },
+ {
+  "code": "UY",
+  "name": "Uruguay",
+  "aliases": [
+   "Uruguay"
+  ],
+  "flag": "🇺🇾",
+  "img": "https://flagcdn.com/w40/uy.png",
+  "tz": "America/Montevideo"
+ },
+ {
+  "code": "UZ",
+  "name": "Uzbekistan",
+  "aliases": [
+   "Uzbekistan"
+  ],
+  "flag": "🇺🇿",
+  "img": "https://flagcdn.com/w40/uz.png",
+  "tz": "Asia/Tashkent"
+ },
+ {
+  "code": "VU",
+  "name": "Vanuatu",
+  "aliases": [
+   "Vanuatu"
+  ],
+  "flag": "🇻🇺",
+  "img": "https://flagcdn.com/w40/vu.png",
+  "tz": "Pacific/Efate"
+ },
+ {
+  "code": "VA",
+  "name": "Vatican City",
+  "aliases": [
+   "Vatican City",
+   "Holy See",
+   "Vatican"
+  ],
+  "flag": "🇻🇦",
+  "img": "https://flagcdn.com/w40/va.png",
+  "tz": "Europe/Vatican"
+ },
+ {
+  "code": "VE",
+  "name": "Venezuela",
+  "aliases": [
+   "Venezuela"
+  ],
+  "flag": "🇻🇪",
+  "img": "https://flagcdn.com/w40/ve.png",
+  "tz": "America/Caracas"
+ },
+ {
+  "code": "VN",
+  "name": "Vietnam",
+  "aliases": [
+   "Vietnam"
+  ],
+  "flag": "🇻🇳",
+  "img": "https://flagcdn.com/w40/vn.png",
+  "tz": "Asia/Ho_Chi_Minh"
+ },
+ {
+  "code": "GB-WLS",
+  "name": "Wales",
+  "aliases": [],
+  "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+  "img": "https://flagcdn.com/w40/gb-wls.png",
+  "tz": "Europe/London"
+ },
+ {
+  "code": "WF",
+  "name": "Wallis and Futuna",
+  "aliases": [
+   "Wallis and Futuna"
+  ],
+  "flag": "🇼🇫",
+  "img": "https://flagcdn.com/w40/wf.png",
+  "tz": "Pacific/Wallis"
+ },
+ {
+  "code": "EH",
+  "name": "Western Sahara",
+  "aliases": [
+   "Western Sahara"
+  ],
+  "flag": "🇪🇭",
+  "img": "https://flagcdn.com/w40/eh.png",
+  "tz": "Africa/El_Aaiun"
+ },
+ {
+  "code": "YE",
+  "name": "Yemen",
+  "aliases": [
+   "Yemen"
+  ],
+  "flag": "🇾🇪",
+  "img": "https://flagcdn.com/w40/ye.png",
+  "tz": "Asia/Aden"
+ },
+ {
+  "code": "ZM",
+  "name": "Zambia",
+  "aliases": [
+   "Zambia"
+  ],
+  "flag": "🇿🇲",
+  "img": "https://flagcdn.com/w40/zm.png",
+  "tz": "Africa/Lusaka"
+ },
+ {
+  "code": "ZW",
+  "name": "Zimbabwe",
+  "aliases": [
+   "Zimbabwe"
+  ],
+  "flag": "🇿🇼",
+  "img": "https://flagcdn.com/w40/zw.png",
+  "tz": "Africa/Harare"
+ },
+ {
+  "code": "AX",
+  "name": "Åland Islands",
+  "aliases": [
+   "Åland Islands"
+  ],
+  "flag": "🇦🇽",
+  "img": "https://flagcdn.com/w40/ax.png",
+  "tz": "Europe/Mariehamn"
+ }
+]
