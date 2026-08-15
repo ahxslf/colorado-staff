@@ -62,10 +62,15 @@ def load_data():
 
 
 def save_data(data):
-    tmp = DATA_FILE + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    os.replace(tmp, DATA_FILE)
+    try:
+        tmp = DATA_FILE + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, DATA_FILE)
+        return True
+    except Exception as e:
+        sys.stderr.write("save_data failed: %r\n" % e)
+        return False
 
 
 def parse_ts(s):
@@ -376,10 +381,21 @@ def fetch_roblox(username):
 # ---------------------------------------------------------------- http ----
 class Handler(BaseHTTPRequestHandler):
     server_version = "ChicagoRPForm/1.0"
-    protocol_version = "HTTP/1.1"
+    # HTTP/1.0 closes the connection after every response (no keep-alive).
+    # This prevents threads from piling up behind Render's proxy when the user
+    # refreshes rapidly, which is what caused the intermittent 404s / half-loaded
+    # pages on the free tier.
+    protocol_version = "HTTP/1.0"
 
     def log_message(self, fmt, *args):
         sys.stderr.write("[%s] %s\n" % (self.log_date_time_string(), fmt % args))
+
+    def send_headers_common(self, code, ctype, length):
+        self.send_response(code)
+        self.send_header("Content-Type", ctype)
+        self.send_header("Content-Length", str(length))
+        self.send_header("Connection", "close")
+        self.end_headers()
 
     def client_ip(self):
         xff = self.headers.get("X-Forwarded-For", "")
@@ -394,15 +410,29 @@ class Handler(BaseHTTPRequestHandler):
 
     def send_json(self, code, obj):
         body = json.dumps(obj).encode("utf-8")
-        self.send_response(code)
-        self.send_header("Content-Type", "application/json; charset=utf-8")
-        self.send_header("Content-Length", str(len(body)))
-        self.send_header("Cache-Control", "no-store")
-        self.end_headers()
-        self.wfile.write(body)
+        self.send_headers_common(code, "application/json; charset=utf-8", len(body))
+        try:
+            self.wfile.write(body)
+        except Exception:
+            pass
 
     def do_GET(self):
+        try:
+            self._do_GET()
+        except Exception as e:
+            sys.stderr.write("do_GET error: %r\n" % e)
+            try:
+                self.send_json(500, {"ok": False, "error": "server_error"})
+            except Exception:
+                pass
+
+    def _do_GET(self):
         path = urlparse(self.path).path
+
+        if path == "/health":
+            # Cheap health check for keep-alive cron jobs (no disk I/O).
+            self.send_json(200, {"ok": True})
+            return
 
         if path == "/api/status":
             ip = self.client_ip()
@@ -469,15 +499,23 @@ class Handler(BaseHTTPRequestHandler):
         except OSError:
             self.send_error(404, "Not Found")
             return
-        self.send_response(200)
-        self.send_header("Content-Type", ctype)
-        self.send_header("Content-Length", str(len(body)))
-        if ext in (".html", ".js", ".css", ".json"):
-            self.send_header("Cache-Control", "no-store")
-        self.end_headers()
-        self.wfile.write(body)
+        self.send_headers_common(200, ctype, len(body))
+        try:
+            self.wfile.write(body)
+        except Exception:
+            pass
 
     def do_POST(self):
+        try:
+            self._do_POST()
+        except Exception as e:
+            sys.stderr.write("do_POST error: %r\n" % e)
+            try:
+                self.send_json(500, {"ok": False, "error": "server_error"})
+            except Exception:
+                pass
+
+    def _do_POST(self):
         path = urlparse(self.path).path
         if path != "/api/submit":
             self.send_error(404, "Not Found")
@@ -528,9 +566,39 @@ class Handler(BaseHTTPRequestHandler):
         self.send_json(200, {"ok": True, "email": email_status})
 
 
+class LimitedThreadingHTTPServer(ThreadingHTTPServer):
+    """ThreadingHTTPServer with a hard cap on concurrent request threads.
+
+    Render's free tier has very little memory; unbounded threads (one per
+    connection) would pile up on rapid refresh and get the instance killed.
+    When the cap is reached we close the extra connection immediately.
+    """
+    daemon_threads = True
+    MAX_THREADS = 48
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._sem = threading.Semaphore(self.MAX_THREADS)
+
+    def process_request(self, request, client_address):
+        if not self._sem.acquire(blocking=False):
+            try:
+                request.close()
+            except Exception:
+                pass
+            return
+        super().process_request(request, client_address)
+
+    def process_request_thread(self, request, client_address):
+        try:
+            super().process_request_thread(request, client_address)
+        finally:
+            self._sem.release()
+
+
 def main():
     port = int(os.environ.get("PORT", "8000"))
-    server = ThreadingHTTPServer(("0.0.0.0", port), Handler)
+    server = LimitedThreadingHTTPServer(("0.0.0.0", port), Handler)
     print("Chicago RP form server running on port %d" % port, flush=True)
     try:
         server.serve_forever()
