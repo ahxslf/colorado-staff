@@ -40,7 +40,7 @@
        host   = the question whose card shows the confirmation block
 
      Country data (flag + timezone for ~250 places) is served by the backend
-     at /api/countries and fetched automatically.
+     at /api/countries. All API calls (/api/*) are handled by server.py.
      ========================================================================= */
 
   var RP_TERMS = ["RDM", "VDM", "FRP", "NITRP", "metagaming", "powergaming",
@@ -415,6 +415,7 @@
     });
   }
 
+  /* ---------- Identity lookup (via backend /api/discord, /api/roblox) ---------- */
   function fetchIdentity(provider) {
     var idc = FORM_CONFIG.identities[provider];
     var card = getCard(idc.host);
@@ -1159,7 +1160,7 @@
       })
       .catch(function () {
         setSubmitState(false);
-        showSubmitError("Could not submit your response. Make sure you are viewing the live preview (not the file preview).");
+        showSubmitError("Could not submit your response. Please try again.");
       });
   }
 
@@ -1173,6 +1174,8 @@
   var TWO_DAYS_MS = 2 * 24 * 60 * 60 * 1000;
 
   function checkAlreadySubmitted() {
+    // Backend: server checks the visitor's IP (48-hour window). Keep a local
+    // fallback for the rare case the API is unreachable.
     var localTs = storage.get(FORM_CONFIG.submittedKey, 0);
     var locallyLocked = !!localTs && (Date.now() - localTs) < TWO_DAYS_MS;
     fetch("/api/status", { method: "GET", headers: { "Accept": "application/json" } })
@@ -1229,12 +1232,11 @@
       if (document.visibilityState === "hidden") saveNow();
     });
 
-    // Prevent the form from flashing before the IP check completes:
-    // hide the page, show a spinner, then reveal form or locked screen.
+    // Hide the form and show a spinner until the server confirms whether this
+    // IP already submitted (prevents the form flashing before the locked screen).
     $("#page").hidden = true;
     var loader = $("#app-loader");
     if (loader) loader.hidden = false;
-
     checkAlreadySubmitted();
   }
 

@@ -121,19 +121,27 @@ def load_env(path):
 
 
 def load_email_config():
-    """Read email settings from .env (re-read on every send, so edits apply
-    without restarting the server)."""
-    env = load_env(ENV_FILE)
+    """Read email settings. On Render (or any host) environment variables set in
+    the dashboard take priority; otherwise values come from the .env file.
+    Re-read on every send, so edits apply without restarting the server."""
+    env_file = load_env(ENV_FILE)
+
+    def get(key, default=""):
+        v = os.environ.get(key)
+        if v is not None and v != "":
+            return v
+        return env_file.get(key, default)
+
     return {
-        "method": (env.get("EMAIL_METHOD") or "none").lower(),
-        "to": env.get("EMAIL_TO", ""),
-        "access_key": env.get("WEB3FORMS_ACCESS_KEY", ""),
-        "form_id": env.get("FORMSPREE_FORM_ID", ""),
-        "smtp_host": env.get("SMTP_HOST", "smtp.gmail.com"),
-        "smtp_port": env.get("SMTP_PORT", "587"),
-        "smtp_user": env.get("SMTP_USER", ""),
-        "smtp_pass": env.get("SMTP_PASS", ""),
-        "smtp_from": env.get("SMTP_FROM", ""),
+        "method": (get("EMAIL_METHOD") or "none").lower(),
+        "to": get("EMAIL_TO"),
+        "access_key": get("WEB3FORMS_ACCESS_KEY"),
+        "form_id": get("FORMSPREE_FORM_ID"),
+        "smtp_host": get("SMTP_HOST", "smtp.gmail.com"),
+        "smtp_port": get("SMTP_PORT", "587"),
+        "smtp_user": get("SMTP_USER"),
+        "smtp_pass": get("SMTP_PASS"),
+        "smtp_from": get("SMTP_FROM"),
     }
 
 
@@ -441,6 +449,10 @@ class Handler(BaseHTTPRequestHandler):
                 return
             self.send_json(200, fetch_roblox(name))
             return
+
+        if path == "/favicon.ico":
+            # Serve the logo as the site icon; silences the harmless 404.
+            path = "/assets/logo.png"
 
         if path == "/":
             path = "/index.html"
