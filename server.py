@@ -434,6 +434,19 @@ class Handler(BaseHTTPRequestHandler):
             self.send_json(200, {"ok": True})
             return
 
+        if path == "/api/admin":
+            # Token-protected view of all submissions (for the owner).
+            qs = urllib.parse.parse_qs(urlparse(self.path).query)
+            tok = (qs.get("token") or [""])[0]
+            admin_token = os.environ.get("ADMIN_TOKEN") or load_env(ENV_FILE).get("ADMIN_TOKEN", "")
+            if not admin_token or tok != admin_token:
+                self.send_json(403, {"ok": False, "error": "forbidden"})
+                return
+            with LOCK:
+                data = load_data()
+            self.send_json(200, data)
+            return
+
         if path == "/api/status":
             ip = self.client_ip()
             now = datetime.now(timezone.utc)
@@ -487,6 +500,12 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/":
             path = "/index.html"
         rel = path.lstrip("/")
+        # Never serve sensitive files (data, secrets, source) over static paths.
+        ext = os.path.splitext(rel)[1].lower()
+        base = os.path.basename(rel)
+        if ext in (".json", ".py") or base in (".env", ".env.example", ".gitignore", "requirements.txt"):
+            self.send_error(404, "Not Found")
+            return
         full = os.path.normpath(os.path.join(ROOT, rel))
         if not full.startswith(ROOT) or not os.path.isfile(full):
             self.send_error(404, "Not Found")
