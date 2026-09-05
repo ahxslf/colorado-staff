@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Chicago RP Staff Application — form server.
+Colorado State Roleplay Staff Application — form server.
 
 Serves the static form AND a small API:
   GET  /api/status  -> {"submitted": bool, "ip": "..."}
@@ -153,7 +153,7 @@ def load_email_config():
 # ---------------------------------------------------------------- email ----
 def build_email_text(record):
     lines = []
-    lines.append("New Chicago RP Staff Application")
+    lines.append("New Colorado State Roleplay Staff Application")
     lines.append("=" * 46)
     lines.append("Submitted at: %s" % record.get("submittedAt"))
     lines.append("IP:           %s" % (record.get("ip") or "(removed)"))
@@ -175,8 +175,8 @@ def build_email_text(record):
 def send_web3forms(cfg, record):
     data = {
         "access_key": cfg.get("access_key"),
-        "subject": "New Chicago RP Staff Application",
-        "from_name": "Chicago RP Staff Application",
+        "subject": "New Colorado State Roleplay Staff Application",
+        "from_name": "Colorado State Roleplay Staff Application",
         "ip": record.get("ip") or "",
         "submitted_at": record.get("submittedAt", ""),
     }
@@ -205,7 +205,7 @@ def send_formsubmit(cfg, record, referer="", origin=""):
     recipient clicks it once, deliveries begin."""
     to = cfg.get("to")
     data = {
-        "_subject": "New Chicago RP Staff Application",
+        "_subject": "New Colorado State Roleplay Staff Application",
         "ip": record.get("ip") or "",
         "submitted_at": record.get("submittedAt", ""),
     }
@@ -220,7 +220,7 @@ def send_formsubmit(cfg, record, referer="", origin=""):
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json",
-        "User-Agent": "ChicagoRPForm/1.0",
+        "User-Agent": "ColoradoRPForm/1.0",
     }
     if referer:
         headers["Referer"] = referer
@@ -250,7 +250,7 @@ def parse_formsubmit(body):
 
 def send_formspree(cfg, record):
     payload = {
-        "subject": "New Chicago RP Staff Application",
+        "subject": "New Colorado State Roleplay Staff Application",
         "ip": record.get("ip") or "",
         "submittedAt": record.get("submittedAt", ""),
         "answers": record.get("answers", []),
@@ -266,7 +266,7 @@ def send_formspree(cfg, record):
 def send_smtp(cfg, record):
     text = build_email_text(record)
     msg = MIMEText(text, "plain", "utf-8")
-    msg["Subject"] = "New Chicago RP Staff Application"
+    msg["Subject"] = "New Colorado State Roleplay Staff Application"
     msg["From"] = cfg.get("smtp_from") or cfg.get("smtp_user")
     msg["To"] = cfg.get("to")
     with smtplib.SMTP(cfg.get("smtp_host", "smtp.gmail.com"),
@@ -305,7 +305,7 @@ def try_send_email(record, referer="", origin=""):
 
 def fetch_discord(user_id):
     url = "https://japi.rest/discord/v1/user/" + user_id
-    req = urllib.request.Request(url, headers={"User-Agent": "ChicagoRPForm/1.0",
+    req = urllib.request.Request(url, headers={"User-Agent": "ColoradoRPForm/1.0",
                                                "Accept": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=15) as r:
@@ -344,7 +344,7 @@ def fetch_roblox(username):
             "https://users.roblox.com/v1/usernames/users",
             data=payload,
             headers={"Content-Type": "application/json",
-                     "User-Agent": "ChicagoRPForm/1.0"},
+                     "User-Agent": "ColoradoRPForm/1.0"},
             method="POST")
         with urllib.request.urlopen(req, timeout=15) as r:
             users = (json.loads(r.read().decode("utf-8", "replace")).get("data") or [])
@@ -360,7 +360,7 @@ def fetch_roblox(username):
     try:
         req2 = urllib.request.Request(
             "https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=%s&size=150x150&format=Png&isCircular=false" % uid,
-            headers={"User-Agent": "ChicagoRPForm/1.0"})
+            headers={"User-Agent": "ColoradoRPForm/1.0"})
         with urllib.request.urlopen(req2, timeout=15) as r2:
             thumbs = (json.loads(r2.read().decode("utf-8", "replace")).get("data") or [])
         if thumbs:
@@ -380,7 +380,7 @@ def fetch_roblox(username):
 
 # ---------------------------------------------------------------- http ----
 class Handler(BaseHTTPRequestHandler):
-    server_version = "ChicagoRPForm/1.0"
+    server_version = "ColoradoRPForm/1.0"
     # HTTP/1.0 closes the connection after every response (no keep-alive).
     # This prevents threads from piling up behind Render's proxy when the user
     # refreshes rapidly, which is what caused the intermittent 404s / half-loaded
@@ -618,7 +618,7 @@ class LimitedThreadingHTTPServer(ThreadingHTTPServer):
 def main():
     port = int(os.environ.get("PORT", "8000"))
     server = LimitedThreadingHTTPServer(("0.0.0.0", port), Handler)
-    print("Chicago RP form server running on port %d" % port, flush=True)
+    print("Colorado State Roleplay form server running on port %d" % port, flush=True)
     try:
         server.serve_forever()
     except KeyboardInterrupt:
