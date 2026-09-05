@@ -50,7 +50,7 @@
   var FORM_CONFIG = {
     title: "Colorado State Roleplay Staff Application Form",
     description: "Thank you for your interest in joining the Colorado State Roleplay staff team. Please complete the application below. Your answers are saved automatically on this device, so you can close this page and come back anytime.",
-    logo: "assets/logo.png",
+    logo: "assets/logo2.png",
     storageKey: "colorado-rp:staff-application:draft",
     submittedKey: "colorado-rp:staff-application:submitted",
 
