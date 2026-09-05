@@ -497,7 +497,7 @@ class Handler(BaseHTTPRequestHandler):
 
         if path == "/favicon.ico":
             # Serve the logo as the site icon; silences the harmless 404.
-            path = "/assets/logo.png"
+            path = "/assets/logo2.png"
 
         if path == "/":
             path = "/index.html"
@@ -521,7 +521,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_error(404, "Not Found")
             return
         # Never let browsers or proxies cache stale static files (e.g. a
-        # swapped logo.png) — always revalidate on the next load.
+        # swapped logo2.png) — always revalidate on the next load.
         self.send_headers_common(200, ctype, len(body), "no-cache")
         try:
             self.wfile.write(body)
