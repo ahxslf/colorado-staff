@@ -1,14 +1,14 @@
 :root {
-  --accent:        #0a2617;
-  --accent-strong: #0f3a23;
-  --accent-soft:   #14532d;
-  --accent-tint:   #e8f1ea;
+  --accent:        #02132b;  /* Colorado laciverti (logo zemini) */
+  --accent-strong: #0d2b52; /* açık lacivert — hover */
+  --accent-soft:   #2f6f9f; /* celik mavisi — link, onay, spinner */
+  --accent-tint:   #dcf1ff; /* buz mavisi — hover zemin */
   --ink:    #202124;
   --ink-2:  #5f6368;
   --ink-3:  #9aa0a6;
   --red:    #d93025;
   --border: #dadce0;
-  --bg:     #eef1ee;
+  --bg:     #eef2f7;  /* hafif mavi sayfa zemini */
 }
 
 * { box-sizing: border-box; }
