@@ -2,7 +2,7 @@
   "use strict";
 
   /* =========================================================================
-     CHICAGO RP — STAFF APPLICATION FORM
+     COLORADO STATE ROLEPLAY — STAFF APPLICATION FORM
      -------------------------------------------------------------------------
      HOW TO EDIT THE FORM (no coding knowledge needed):
      Edit the `sections` array in FORM_CONFIG below. Each section is a
@@ -48,11 +48,11 @@
   var RP_DESC = "Explain it with at least 2+ sentences with an example, and then tell what's the punishment for it.";
 
   var FORM_CONFIG = {
-    title: "Chicago RP Staff Application Form",
-    description: "Thank you for your interest in joining the Chicago RP staff team. Please complete the application below. Your answers are saved automatically on this device, so you can close this page and come back anytime.",
+    title: "Colorado State Roleplay Staff Application Form",
+    description: "Thank you for your interest in joining the Colorado State Roleplay staff team. Please complete the application below. Your answers are saved automatically on this device, so you can close this page and come back anytime.",
     logo: "assets/logo.png",
-    storageKey: "chicago-rp:staff-application:draft",
-    submittedKey: "chicago-rp:staff-application:submitted",
+    storageKey: "colorado-rp:staff-application:draft",
+    submittedKey: "colorado-rp:staff-application:submitted",
 
     identities: {
       discord: { label: "Discord", fields: ["q1", "q2"], host: "q2" },
@@ -68,7 +68,7 @@
           {
             id: "q1", type: "text", inputType: "text", identityProvider: "discord",
             title: "What's your discord username?", required: true,
-            placeholder: "e.g. chicago_rp_user"
+            placeholder: "e.g. colorado_rp_user"
           },
           {
             id: "q2", type: "text", inputType: "text", identityProvider: "discord",
@@ -110,7 +110,7 @@
         questions: [
           {
             id: "gk1", type: "paragraph",
-            title: "Why do you want to join the Chicago RP staff community?",
+            title: "Why do you want to join the Colorado State Roleplay staff community?",
             required: true,
             placeholder: "Your answer"
           },
