@@ -390,11 +390,13 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, fmt, *args):
         sys.stderr.write("[%s] %s\n" % (self.log_date_time_string(), fmt % args))
 
-    def send_headers_common(self, code, ctype, length):
+    def send_headers_common(self, code, ctype, length, cache_control=None):
         self.send_response(code)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(length))
         self.send_header("Connection", "close")
+        if cache_control:
+            self.send_header("Cache-Control", cache_control)
         self.end_headers()
 
     def client_ip(self):
@@ -518,7 +520,9 @@ class Handler(BaseHTTPRequestHandler):
         except OSError:
             self.send_error(404, "Not Found")
             return
-        self.send_headers_common(200, ctype, len(body))
+        # Never let browsers or proxies cache stale static files (e.g. a
+        # swapped logo.png) — always revalidate on the next load.
+        self.send_headers_common(200, ctype, len(body), "no-cache")
         try:
             self.wfile.write(body)
         except Exception:
